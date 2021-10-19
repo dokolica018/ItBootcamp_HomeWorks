@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+.container{
+    width: 80%;
+    margin:30px  auto;
+    text-align: center;
+}
+tr{
+    font-size: 18px;
+}
+td:first-child{
+    font-weight: bold;
+}
+td:nth-child(2){
+    color: tomato;
+    font-weight: bold;
+}

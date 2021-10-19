@@ -1,0 +1,72 @@
+.uneti-prihodi,
+.uneti-rashodi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prihodi{
+    flex: 0 0 47%;
+}
+.rashodi{
+    flex: 0 0 47%;
+}
+
+.uneti-rashodi p:nth-child(2){
+    flex: 0 0 35%;
+}
+.uneti-rashodi p:last-child{
+    flex: 0 0 6%;
+    padding: 5px;
+    margin-right: 20px;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+.uneti{
+    margin-top: 15px;
+}
+.prihodi h3{
+    color: #28b9b4;
+}
+.rashodi h3{
+    color: #ff514a;
+}
+.uneti-prihodi p:last-child{
+    color: #28b9b4;
+}
+.uneti-rashodi p:nth-child(3){
+    
+    color: #ff514a;
+}
+
+.uneti-rashodi p:last-child{
+    color: white;
+    background-color: #ff514a;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    opacity: .7;
+}
+
+.btn{
+    margin-bottom: 15px;
+    display:block;
+    background-color: #ff514a;
+    opacity: .8;
+}
+.r-iznos{
+    text-align: left;
+    flex: 0 0 10%;
+
+}
+.p-iznos{
+    text-align: left;
+    flex: 0 0 20%;
+}
+
+.p-opis{
+    text-align: left;
+    flex: 0 0 35%;
+    margin-bottom: 27px;
+}

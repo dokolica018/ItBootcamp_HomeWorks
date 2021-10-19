@@ -1,0 +1,70 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    margin-bottom: 50px;
+}
+header{
+    text-align: center;
+}
+h2{
+    padding: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+li a{
+    margin-left: 10px;
+}
+main{
+    display: flex;
+}
+span{
+    color: indianred;
+    font-style: italic;
+}
+img{
+    width: 100%;
+}
+aside{
+    flex: 0 0 22%;
+    padding: 5px;
+}
+.mainSection{
+    flex: 0 0 72%;
+}
+.mainSection h1{
+    font-size: 2.4em;
+    padding: 20px 0;
+}
+form{
+    color: tomato;
+    border: 2px solid black;
+    padding: 5px;
+}
+.checkbox-class label,
+.gender-class label{
+    color: black;
+    padding: 20px 0;
+
+}
+.gender-class,
+.checkbox-class{
+    padding: 10px 0;
+}
+hr{
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+}
+#male,
+#female{
+    margin: 0 5px;
+}
+p{
+    padding: 10px 0;
+    font-size: 16px;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+header{
+    background: linear-gradient(to bottom, rgb(0, 0, 0,.8),rgb(0, 0, 0,.8)), url(img1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+h1{
+    font-size: 90px;
+    margin-bottom: 18px;
+}
+#logo{
+    width: 30%;
+    margin-right: 0;
+}
+.login{
+    border: 1px solid rgb(104, 102, 102);
+}
+.korpa h3{
+    color: cadetblue;
+}
+.korpa span,
+.proizvod span{
+    color: darkgray;
+}
+.proizvod span{
+    font-weight: bold;
+}
+.proizvodi h3{
+    color: cadetblue;
+}
+p{
+    font-weight: bold;
+}
+p:first-child{
+    font-size: 19px;
+    color: tomato;
+}
+.korpa{
+    display: none;
+}
+
+.alert{
+    text-align: center;
+    width: 20%;
+    height: 150px;
+    background-color: indianred;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    padding: 50px;
+    color: white;
+    border: 1px solid black;
+    display: none;
+}
+.alertText{
+    margin-bottom: 20px;
+}
+

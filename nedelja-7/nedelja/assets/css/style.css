@@ -1,0 +1,12 @@
+.countries-list{
+    cursor: pointer;
+}
+.btns{
+    visibility: hidden;
+}
+.slika{
+    width: 150px;
+}
+.slika1{
+    width: 300px;
+}

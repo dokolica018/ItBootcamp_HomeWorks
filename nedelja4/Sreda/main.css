@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    box-shadow: 0 0 8px #ddd;
+    margin: 10px auto;
+    position: relative;
+
+}
+.btn2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1000;
+    
+}
+.btn1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 1000;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ball{
+    width: 40px;
+    height: 40px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#card0,#card1{
+    margin-top: 60px;
+}
+#card2,#card3{
+    margin-top: 60px;
+}
+#cardFooter0{
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: -300px;
+    background-color: tomato;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+}
+#cardFooter1{
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    right: -300px;
+    background-color: tomato;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+}
+#cardFooter2{
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    left: -300px;
+    background-color: tomato;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+}
+#cardFooter3{
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    right: -300px;
+    background-color: tomato;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+.cardFooter{
+    transition: .4s ease;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+

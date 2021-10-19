@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+h6{
+    color: black;
+}
+
+header{
+    background:linear-gradient(to bottom, rgb(166, 166, 166),rgb(174, 177, 210),rgb(174, 177, 210)) ;
+    padding: 10px;
+    color: rgb(174, 177, 210);
+}
+.container{
+    width: 40%;
+    margin: auto;
+}
+.prihod{
+    background-color: #28b9b4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 2.5px;
+    padding-top: 15px;
+}
+.rashod{
+    background-color: #ff514a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 2.5px;
+    padding-top: 15px;
+}
+.rashod div{
+    display: flex;
+}
+.prihod h5,
+.rashod h5{
+    color: white;
+    font-size: 20px;
+}
+.prihod h5{
+    margin-right: 55px;
+}
+header p,
+header h1{
+    color: white;
+}
+.ukupan-procenat{
+    color: white;
+    background-color: indianred;
+    opacity: .9;
+    padding: 0 10px;
+    margin: 0 5px;
+    height: 90%;
+    border-radius: 5px;
+    
+}
+.container2{
+    width: 60%;
+    margin: auto;
+}
+form{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.forms{
+    background-color: #f7f7f7;
+
+}
+.pr{
+    
+    flex: 0 0 12%;
+}
+
+.far{
+    color: #ff514a;
+    font-size: 1.9rem;
+    flex: 0 0 10%;
+
+}
+.iznos{
+    flex: 0 0 15%;
+}
+.opis{
+    flex: 0 0 63%;
+}
+option{
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: darkgray;
+}
+.container3{
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.uneti-prihodi,
+.uneti-rashodi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prihodi{
+    flex: 0 0 47%;
+}
+.rashodi{
+    flex: 0 0 47%;
+}
+
+.uneti-rashodi p:nth-child(2){
+    flex: 0 0 35%;
+}
+.uneti-rashodi p:last-child{
+    flex: 0 0 6%;
+    padding: 5px;
+    margin-right: 20px;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+.uneti{
+    margin-top: 15px;
+}
+.prihodi h3{
+    color: #28b9b4;
+}
+.rashodi h3{
+    color: #ff514a;
+}
+.uneti-prihodi p:last-child{
+    color: #28b9b4;
+}
+.uneti-rashodi p:nth-child(3){
+    
+    color: #ff514a;
+}
+
+.uneti-rashodi p:last-child{
+    color: white;
+    background-color: #ff514a;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    opacity: .7;
+}
+.errors{
+    display: flex;
+    justify-content: space-between;
+}
+.error{
+    color: red;
+    font-size: 15px;
+}
+.errors div:first-child{
+    flex: 0 0 17%;
+    margin-left: 15px;
+}
+.errors div:nth-child(2){
+    flex: 0 0 55%;
+}
+.errors div:nth-child(3){
+    flex: 0 0 23%;
+    margin-right: 50px;
+}
+.btn{
+    margin-bottom: 15px;
+    display:none;
+    background-color: #ff514a;
+    opacity: .8;
+}
+.r-iznos{
+    text-align: left;
+    flex: 0 0 10%;
+
+}
+.p-iznos{
+    text-align: left;
+    flex: 0 0 20%;
+}
+.error3{
+    padding-left: 50px;
+}
+.p-opis{
+    text-align: left;
+    flex: 0 0 35%;
+    margin-bottom: 27px;
+}

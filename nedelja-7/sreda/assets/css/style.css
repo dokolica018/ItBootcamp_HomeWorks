@@ -1,0 +1,10 @@
+img{
+    width: 150px;
+    height: 100px;
+}
+body{
+    background-image:linear-gradient(rgba(255, 255, 255,.8),rgba(255, 255, 255,.9)), url(https://images.unsplash.com/photo-1504329779896-a7e131ac23af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+}

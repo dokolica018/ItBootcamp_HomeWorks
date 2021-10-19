@@ -1,0 +1,58 @@
+header{
+    background:linear-gradient(to bottom, rgb(166, 166, 166),rgb(174, 177, 210),rgb(174, 177, 210)) ;
+    padding: 10px;
+    color: rgb(174, 177, 210);
+}
+h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.container{
+    width: 40%;
+    margin: auto;
+}
+.prihod{
+    background-color: #28b9b4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 2.5px;
+    padding-top: 15px;
+}
+.rashod{
+    background-color: #ff514a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 2.5px;
+    padding-top: 15px;
+}
+.rashod div{
+    display: flex;
+}
+.prihod h5,
+.rashod h5{
+    color: white;
+    font-size: 20px;
+}
+.prihod h5{
+    margin-right: 55px;
+}
+header p,
+header h1{
+    color: white;
+}
+.ukupan-procenat{
+    color: white;
+    background-color: indianred;
+    opacity: .9;
+    padding: 0 10px;
+    margin: 0 5px;
+    height: 90%;
+    border-radius: 5px;
+    
+}

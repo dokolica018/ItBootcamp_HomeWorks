@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+    margin: 20px auto;
+}
+
+label{
+    color: seagreen;
+    font-size: 22px;
+    margin: 5px 0;
+}
+h1{
+    color: darkgreen;
+    font-size: 4em;
+    text-align: center;
+}
+.gcImg{
+    display: flex;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex: 0 0 30%;
+}
+.select{
+    flex: 0 0 30%;
+}
+.gc{
+    flex: 0 0 35%;
+}
+img{
+    width: 100%;
+}
+p{
+    color: red;
+}
+

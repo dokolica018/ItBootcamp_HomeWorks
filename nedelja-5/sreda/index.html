@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="naslov">HappyForm</h1>
+        <form class="my-3" action="">
+            <div class="labels">
+                <h2>Personal data:</h2>
+            <label for="name">Name:</label>
+            <input class="form-control" type="text" name="first_name" id="name" placeholder="enter your name...">
+            <p class="p-name"></p>
+            <label for="name">Last name:</label>
+            <input class="form-control" type="text" name="last_name" id="last-name" placeholder="enter your last name...">
+            <p class="p-last-name"></p>
+            <label for="name">Email:</label>
+            <input class="form-control" type="email" name="email" id="email" placeholder="email...">
+            <p class="p-email"></p>
+            <label for="">Password:</label>
+            <input class="form-control" type="password" name="pass" id="pass" placeholder="enter your password...">
+            <p class="p-password"></p>
+            <label for="">Confirm password:</label>
+            <input class="form-control" type="password" name="pass-confirm" id="passC" placeholder="confirm your password...">
+            <p class="p-password-confirm"></p>
+            </div>
+            <div class="gcImg">
+                <div class="gc">
+                    <div class="gender my-3">
+                        <h2>Pick your gender:</h2>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender"  value="male" id="male">
+                            <label class="form-check-label" for="male">
+                                Male
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender"  value="female" id="female">
+                            <label class="form-check-label" for="female">
+                                Female
+                            </label>
+                        </div>
+                        <p class="p-gender"></p>
+                    </div>
+                    <div class="check my-3">
+                        <h2>Choose course/courses:</h2>
+                        <div class="form-check">
+                            <input class="form-check-input" name="course" type="checkbox" value="HTML" id="HTML">
+                            <label class="form-check-label" for="HTML">
+                                HTML
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="course" type="checkbox" value="CSS" id="CSS" >
+                            <label class="form-check-label" for="CSS">
+                                CSS
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="course" type="checkbox" value="Javascript" id="Javascript" >
+                            <label class="form-check-label" for="Javascript">
+                                Javascript
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="course" type="checkbox" value="PHP" id="PHP" >
+                            <label class="form-check-label" for="PHP">
+                                PHP
+                            </label>
+                        </div>
+                        <p class="p-courses"></p>
+                    </div>
+                </div>
+                <div class="select my-3">
+                    <h2>Selcect your city:</h2>
+                    <select class="form-select" name="city">
+                        <option selected disabled>Choose city</option>
+                        <option value="Nis">Nis</option>
+                        <option value="Beograd">Beograd</option>
+                        <option value="NoviSad">Novi Sad</option>
+                        <option value="Leskovac">Leskovac</option>
+                        <option value="Pirot">Pirot</option>
+                        <option value="Vranje">Vranje</option>
+                        <option value="Smederevo">Smederevo</option>
+                        <option value="Subotica">Subotica</option>
+                        <option value="Pozarevac">Pozarevac</option>
+                        <option value="Pancevo">Pancevo</option>
+                    </select>
+                    <p class="p-city"></p>
+                </div>
+                <div class="img">
+                    <img src="form.png" alt="">
+                </div>
+            </div>
+            <button class="btn btn-success form-control">Register</button>
+        </form>
+        <div class="container">
+            <h1>Users:</h1>
+            <div class="row users">
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

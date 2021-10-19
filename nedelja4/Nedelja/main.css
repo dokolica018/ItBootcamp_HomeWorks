@@ -1,0 +1,15 @@
+.btn-saberi{
+    border: 1px solid black;
+}
+.col-2{
+    background-color: cadetblue;text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.br{
+    font-size: 30px;
+    line-height: 35px;
+}

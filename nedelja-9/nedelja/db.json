@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "6a0d548a-15e1-4afd-a4d2-7bd38c2647b1",
+      "name": "Cheese - Gouda Smoked",
+      "info": "sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula",
+      "price": 71
+    },
+    {
+      "id": "85b4936a-2e6c-46ba-b554-b86a5d6cbac7",
+      "name": "Chocolate - Feathers",
+      "info": "vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
+      "price": 71
+    },
+    {
+      "id": "331d4d5f-7a0e-4fc0-99c8-277d33cbf22b",
+      "name": "Olives - Morracan Dired",
+      "info": "nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt",
+      "price": 99
+    },
+    {
+      "id": "47758b90-2442-11ec-b5e1-437b09a697db",
+      "name": "Caj",
+      "price": "400",
+      "info": "Majcina dusica"
+    }
+  ]
+}
